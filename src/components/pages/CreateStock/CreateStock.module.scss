@@ -1,0 +1,17 @@
+.Form{
+    border: 1px solid red;
+    margin-top: 3rem;
+    margin-bottom: 0.875rem;
+    .title{
+        margin-bottom: 0.875rem;
+        span{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    .inputs{
+        display: flex;
+        flex:1;
+        gap:0.25rem;
+    }
+}
